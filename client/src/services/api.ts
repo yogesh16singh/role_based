@@ -1,7 +1,7 @@
 import axios, { AxiosError } from "axios";
 import { User, Role } from "../types";
 
-const API_URL = "http://localhost:3001";
+const API_URL = "https://role-based-cqwu.onrender.com";
 
 interface ErrorResponse {
   message: string;
